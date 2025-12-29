@@ -1,4 +1,4 @@
-# Laravel 11 新增進階字串操作方法
+# Laravel 12 新增進階字串操作方法
 
 引入 mpstenson 的 laravel-advanced-string 套件來擴增新增進階字串操作方法，將操作方法新增至內建 `Str` 類別，可以獲得字串的擴充功能，例如進階密碼產生、資料編輯等。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/manipulate` 來進行字串操作。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/LahYJBj.png)
+![](https://i.imgur.com/pNRpTdQ.png)
 > 可以利用字串的擴充功能來操作
